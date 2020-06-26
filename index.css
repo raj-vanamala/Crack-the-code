@@ -1,0 +1,32 @@
+body {
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url('images/Lets play.jpg'); */
+    /* background-color: brown; */
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    font-size: large;
+    color: brown;
+  }
+  .margin-css{
+     margin-top: 5%;
+     margin-left: 2%;
+  }
+  .margin-top-css {
+    margin-top: 20px;
+  }
+   .link-css {
+    color: white;
+  }
+  /* .btn-success   {
+    background-color: brown;
+    border-color: brown;
+}
+  .btn-success:hover {
+    background-color: brown;
+    border-color: brown;
+} */
+  a:hover {
+    color: white;
+  }
