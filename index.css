@@ -1,13 +1,9 @@
 body {
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-image: url('images/Lets play.jpg'); */
-    /* background-color: brown; */
-    font-family: 'Cinzel', serif;
+    background-color: tomato;
+    font-family: 'Alfa Slab One', cursive;
     font-weight: bolder;
-    font-size: large;
-    color: brown;
+    font-size: xx-large;
+    color: maroon;
   }
   .margin-css{
      margin-top: 5%;
@@ -19,14 +15,15 @@ body {
    .link-css {
     color: white;
   }
-  /* .btn-success   {
-    background-color: brown;
-    border-color: brown;
-}
-  .btn-success:hover {
-    background-color: brown;
-    border-color: brown;
-} */
   a:hover {
     color: white;
+  }
+  .btn {
+    border: 2px solid maroon;
+    color: maroon;
+  }
+  
+  .btn:hover{
+    background-color: maroon;
+    border: 2px solid maroon;
   }

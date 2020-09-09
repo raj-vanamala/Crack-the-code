@@ -1,15 +1,12 @@
 body {
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-image: url('images/wallpaperflare.com_wallpaper.jpg'); */
-    font-family: 'Cinzel', serif;
+    background-color: tomato;
+    font-family: 'Alfa Slab One', cursive;
     font-weight: bolder;
     font-size: large;
-    color: brown;
+    color: maroon;
   }
   .margin-css {
-    margin: 2%;
+    margin: 1%;
   }
   .correct-number-css{
     background-color: green;
@@ -21,7 +18,7 @@ body {
     background-color: orange;
   }
   .blocks-css{
-    background-color: brown;
+    background-color: maroon;
     width: 50px;
     height: 50px;
     border-radius: 10px 20px;
@@ -33,42 +30,40 @@ body {
 .flex-css1{
   width: 96%;
   height: auto;
-  /* background-color: blueviolet; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .flex-css2{
-  /* border: 5px solid red; */
   width: 60%;
   height: auto;
-  /* background-color: black; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 10px;
-}
-.flex-css3{
-  /* border: 5px solid pink; */
-  color: aliceblue;
-  width: 40%;
-  height: auto;
-  background-color:brown;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 .input-css{
   width: 50%;
-  border: 3px solid brown;
+  border: 3px solid maroon;
 }
 .btn {
   margin-left: 5px;
-  border: 2px solid brown;
-  color: brown;
+  border: 2px solid maroon;
+  color: maroon;
 }
 
 .btn:hover{
-  background-color: brown;
+  background-color: maroon;
+  border: 2px solid maroon;
+}
+
+.header-css {
+  text-align: center;
+}
+.message-box-css-v {
+  visibility: visible;
+}
+.message-box-css-h {
+  visibility: hidden;
 }
